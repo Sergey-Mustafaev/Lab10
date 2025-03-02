@@ -1,11 +1,11 @@
-using lab;
+using DemonstrationProgram;
 
 namespace TestProject;
 
 [TestClass]
 public class UnitTest1
 {
-    // Это тест для тестового метода в Program.cs.
+    /*// Это тест для тестового метода в Program.cs.
     // Тест можно удалить из проекта.
     [TestMethod]
     public void TestTestMethod()
@@ -19,5 +19,5 @@ public class UnitTest1
 
         // Assert
         Assert.AreEqual(expected, actual);
-    }
+    }*/
 }
