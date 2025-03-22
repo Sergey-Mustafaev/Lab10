@@ -1,76 +1,97 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="CarsAndClocksLibrary.Car" Collapsed="true">
-    <Position X="2.25" Y="1" Width="1.5" />
+  <Class Name="CarsAndClocksLibrary.Car">
+    <Position X="2.5" Y="1.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
     <TypeIdentifier>
       <HashCode>ADAAAAgACACICAwFiAhAKAICQBAEAIBBAAQigBBBEBA=</HashCode>
       <FileName>Car.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="CarsAndClocksLibrary.ComparatorYearProduction" Collapsed="true">
-    <Position X="5.25" Y="1.5" Width="1.5" />
+  <Class Name="CarsAndClocksLibrary.ComparatorYearProduction">
+    <Position X="0.5" Y="5.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
       <FileName>ComparatorYearProduction.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="CarsAndClocksLibrary.DialClock" Collapsed="true">
-    <Position X="9.75" Y="2.25" Width="1.5" />
+  <Class Name="CarsAndClocksLibrary.DialClock">
+    <Position X="10" Y="1.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
     <TypeIdentifier>
       <HashCode>IAgAAAACAACQAAAEwAGAIgAEAAAAAAIAAABCAAgARQA=</HashCode>
       <FileName>DialClock.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="CarsAndClocksLibrary.DialClockArray" Collapsed="true">
-    <Position X="9.75" Y="3.5" Width="1.5" />
+  <Class Name="CarsAndClocksLibrary.DialClockArray">
+    <Position X="12" Y="1.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
     <TypeIdentifier>
       <HashCode>IAAAAAAAAAAAAAAEiAAAAABAAAAAAAgABAACAAgAAAA=</HashCode>
       <FileName>DialClockArray.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="CarsAndClocksLibrary.IdNumber" Collapsed="true">
-    <Position X="7.25" Y="0.5" Width="1.5" />
+  <Class Name="CarsAndClocksLibrary.IdNumber">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAEgEAAAAAAAAAIAIAAAAAAAABBAAA=</HashCode>
       <FileName>IdNumber.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="CarsAndClocksLibrary.InputOutput" Collapsed="true">
-    <Position X="9.75" Y="0.5" Width="1.5" />
+  <Class Name="CarsAndClocksLibrary.InputOutput">
+    <Position X="12" Y="4.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
     <TypeIdentifier>
       <HashCode>AACACAAAAAAAAAAIAAAABAAAAQAAAIAAAAAAYQgAAAA=</HashCode>
       <FileName>InputOutput.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="CarsAndClocksLibrary.PassengerCar" Collapsed="true">
-    <Position X="0.5" Y="3" Width="1.5" />
+  <Class Name="CarsAndClocksLibrary.PassengerCar">
+    <Position X="4.5" Y="1.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
     <TypeIdentifier>
       <HashCode>ABAIAAAAAgCAAAAEiAgAIAAAAAAEgIABAIAGCAAAABA=</HashCode>
       <FileName>PassengerCar.cs</FileName>
     </TypeIdentifier>
-    <Lollipop Position="0.2" />
   </Class>
-  <Class Name="CarsAndClocksLibrary.SUV" Collapsed="true">
-    <Position X="2.25" Y="3" Width="1.5" />
+  <Class Name="CarsAndClocksLibrary.SUV">
+    <Position X="6.25" Y="1.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
     <TypeIdentifier>
       <HashCode>ABAAAAAAAACABAAEiQgAIAAAAAAEAIAhAAAGAAIACBA=</HashCode>
       <FileName>SUV.cs</FileName>
     </TypeIdentifier>
-    <Lollipop Position="0.2" />
   </Class>
-  <Class Name="CarsAndClocksLibrary.Truck" Collapsed="true">
-    <Position X="4" Y="3" Width="1.5" />
+  <Class Name="CarsAndClocksLibrary.Truck">
+    <Position X="8" Y="1.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
     <TypeIdentifier>
       <HashCode>ABAAAAABAACAAABEiAgAIAAAAAAEIIABAAAGAAAAABA=</HashCode>
       <FileName>Truck.cs</FileName>
     </TypeIdentifier>
-    <Lollipop Position="0.2" />
   </Class>
-  <Interface Name="CarsAndClocksLibrary.IInit" Collapsed="true">
-    <Position X="5.25" Y="0.5" Width="1.5" />
+  <Interface Name="CarsAndClocksLibrary.IInit">
+    <Position X="0.5" Y="1.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
       <FileName>IInit.cs</FileName>

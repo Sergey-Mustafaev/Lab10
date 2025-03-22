@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace CarsAndClocksLibrary
+﻿namespace CarsAndClocksLibrary
 {
-    public class SUV : Car, IInit, ICloneable
+    public class SUV : Car
     {
         public new const string defaultObjectName = "Внедорожник";
         public const bool isAllWheelDriveDefault = false;
@@ -107,7 +101,7 @@ namespace CarsAndClocksLibrary
 
         public override int GetHashCode() => this.ToString().GetHashCode();
 
-        public virtual object Clone()
+        public override object Clone()
         {
             SUV returnCar = new SUV(this);
             returnCar.IdNumber = this.IdNumber;

@@ -166,7 +166,6 @@ namespace CarsAndClocksLibrary
 
         public virtual void RandomInit()
         {
-            InputOutput.Message($"Инициализация объекта {ObjectName} с помощью ГСЧ.");
             Brand = trialBrands[random.Next(0, trialBrands.Length)];
             YearProduction = random.Next(yearProductionMinValue + 1, yearProductionMaxValue + 1);
             Color = trialColors[random.Next(0, trialColors.Length)];
@@ -201,5 +200,7 @@ namespace CarsAndClocksLibrary
         }
 
         public virtual object ShallowCopy() => MemberwiseClone();
+
+        public Car GetBase() => new Car(this);
     }
 }

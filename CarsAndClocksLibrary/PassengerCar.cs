@@ -2,7 +2,7 @@
 
 namespace CarsAndClocksLibrary
 {
-    public class PassengerCar : Car, IInit, ICloneable
+    public class PassengerCar : Car
     {
         public new const string defaultObjectName = "Легковой автомобиль";
         public const int seatsNumberMinValue = 0;
@@ -125,7 +125,7 @@ namespace CarsAndClocksLibrary
 
         public override int GetHashCode() => this.ToString().GetHashCode();
 
-        public virtual object Clone()
+        public override object Clone()
         {
             PassengerCar returnCar = new PassengerCar(this);
             returnCar.IdNumber = this.IdNumber;

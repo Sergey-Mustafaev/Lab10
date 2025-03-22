@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CarsAndClocksLibrary
 {
-    public class Truck : Car, IInit, ICloneable
+    public class Truck : Car
     {
         public new const string defaultObjectName = "Грузовой автомобиль";
         public const int loadCapacityTonsMinValue = 0;
@@ -99,7 +99,7 @@ namespace CarsAndClocksLibrary
 
         public override int GetHashCode() => this.ToString().GetHashCode();
 
-        public virtual object Clone()
+        public override object Clone()
         {
             Truck returnCar = new Truck(this);
             returnCar.IdNumber = this.IdNumber;
