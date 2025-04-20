@@ -1,5 +1,6 @@
 ﻿using System;
-
+using System.Drawing;
+using PrimitiveInterfacesLibrary;
 
 namespace CarsAndClocksLibrary
 {
@@ -94,6 +95,16 @@ namespace CarsAndClocksLibrary
             Color = otherCar.Color;
             CostRuble = otherCar.CostRuble;
             RideHeightMillimeters = otherCar.RideHeightMillimeters;
+        }
+
+        public Car()
+        {
+            _idNumber = new IdNumber();
+            Brand = null;
+            YearProduction = yearProductionMinValue;
+            Color = null;
+            CostRuble = costRubleMinValue;
+            RideHeightMillimeters = yearProductionMinValue;
         }
 
         private protected string PrivateToString()

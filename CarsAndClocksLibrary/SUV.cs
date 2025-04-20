@@ -41,6 +41,12 @@
             OffRoadType = otherCar.OffRoadType;
         }
 
+        public SUV() : base()
+        {
+            IsAllWheelDrive = isAllWheelDriveDefault;
+            OffRoadType = null;
+        }
+
         private protected new string PrivateToString()
         {
             base.ObjectName = this.ObjectName;

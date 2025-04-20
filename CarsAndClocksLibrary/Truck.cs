@@ -51,6 +51,11 @@ namespace CarsAndClocksLibrary
             LoadCapacityTons = otherCar.LoadCapacityTons;
         }
 
+        public Truck() : base()
+        {
+            LoadCapacityTons = loadCapacityTonsMinValue;
+        }
+
         private protected new string PrivateToString()
         {
             base.ObjectName = this.ObjectName;

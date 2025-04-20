@@ -63,6 +63,12 @@ namespace CarsAndClocksLibrary
             MaximumSpeedKilometersPerHour = otherCar.MaximumSpeedKilometersPerHour;
         }
 
+        public PassengerCar() : base()
+        {
+            SeatsNumber = seatsNumberMinValue;
+            MaximumSpeedKilometersPerHour = maximumSpeedKilometersPerHourMinValue;
+        }
+
         private protected new string PrivateToString()
         {
             base.ObjectName = this.ObjectName;
